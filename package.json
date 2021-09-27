@@ -1,0 +1,22 @@
+{
+  "name": "Sage Economics",
+  "version": "1.0.0",
+  "description": "Economy bot created with quick.eco package in discord.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Butterscotch",
+  "license": "",
+  "keywords": [
+    "discord.js"
+  ],
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "fs": "^0.0.1-security",
+    "quick.eco": "^2.0.3"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
