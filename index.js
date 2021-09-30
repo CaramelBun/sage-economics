@@ -17,8 +17,8 @@ const Discord = require("discord.js");
       "DIRECT_MESSAGE_TYPING",
   ],
 });
-const Eco = require("quick.eco");
-client.eco = new Eco.Manager(); // quick.eco
+const Eco = require("quick.db");
+client.eco = new Eco.Manager(); // quick.db
 client.db = Eco.db; // quick.db
 client.config = require("./botConfig");
 client.redeemcodes = require("./codes.json");
